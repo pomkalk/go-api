@@ -23,3 +23,5 @@ func (s *TestMathSuite) TestSub() {
 	a := math.Sub(5, 4)
 	s.Equal(1, a, "not equal")
 }
+
+// com
