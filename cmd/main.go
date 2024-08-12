@@ -9,3 +9,5 @@ func main() {
 	a := math.Sum(1, 2)
 	fmt.Println(a)
 }
+
+//comment
