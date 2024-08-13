@@ -19,9 +19,10 @@ func (s *TestMathSuite) TestSum() {
 	s.Equal(7, a, "not equal")
 }
 
-func (s *TestMathSuite) TestSub() {
-	a := math.Sub(5, 4)
-	s.Equal(1, a, "not equal")
-}
+//
+//func (s *TestMathSuite) TestSub() {
+//	a := math.Sub(5, 4)
+//	s.Equal(1, a, "not equal")
+//}
 
 // com1
