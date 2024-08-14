@@ -2,12 +2,16 @@ package main
 
 import (
 	"fmt"
-	"go-api/math"
+	"time"
 )
 
 func main() {
-	a := math.Sum(1, 2)
-	fmt.Println(a)
+	start := time.Now()
+
+	for i := 0; i < 1000000; i++ {
+		fmt.Println(i)
+	}
+	fmt.Println(time.Since(start))
 }
 
 //comment // //sdfasdasd
